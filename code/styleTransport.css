@@ -1,0 +1,166 @@
+body{
+  background-color: #f7f3e9;
+  text-align: center;
+}
+#logo{
+  color: #f05945;
+  font-family: Roboto Condensed;
+  font-size: 30px;
+}
+.button1{
+  border: none;
+  color: white;
+  padding: 10px 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   background-color: #5eaaa8;
+   /* color: white; */
+}
+.button1:hover {
+  background-color: #5f939a;
+  color: white;
+}
+#Addbutton{
+  border-radius: 12px;
+  border: none;
+  color: white;
+   padding: 10px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 30px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   background-color: #a3d2ca;
+   color: #374045;
+}
+#Addbutton:hover{
+  background-color: #5eaaa8;
+  color: white;
+}
+table{
+  padding-top: 100px;
+}
+#registerLabel{
+  color: #f05945;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #a3d2ca;;
+}
+.nav-item{
+  padding: 15px;
+}
+table,th {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+th {
+  color: #f05945;
+  border: 1px solid #5eaaa8;
+  border-collapse: collapse;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 5px;
+  text-align: center;
+}
+td{
+  color: #f05945;
+}
+#accTable,.colAcc{
+  border: 1px solid #5eaaa8;
+  border-collapse: collapse;
+  
+}
+.colAcc{
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: 0 auto;
+}
+
+#accTable{
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+#imgAvatar{
+  max-height: 150px;
+  max-width: 150px;
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+.Mycard{
+  background-color: #f7f3e9;
+}
+.h4Label{
+  margin-top: 30px;
+  color: #5f939a;
+}
+
+.my-card{
+  width: 20vw;
+  height: 140px;
+  padding: 60px;
+  font-family: sans-serif;
+  border: none;
+  margin: 20px;
+  background: #5eaaa8;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  ыbox-shadow: 0px 1px 5px 1px #C2C5C6;
+}
+
+.cardd{
+    text-align: left;
+    font-size: 15px;
+    margin: -45px;
+}
+
+.card-num{
+    text-align: right;
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+    padding-right: 0px;
+}
+
+.balance{
+    text-align: left;
+    font-size: 17px;
+    color: #d8e3e7;
+    padding-top: 60px;
+    margin: -45px;
+}
+
+.tg{
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    padding-top: 45px;
+    margin: -45px;
+}
+
+.hist{
+    overflow: hidden;
+}
+
+.hst{
+    padding-left: 350px;
+    text-align: left;
+}
+
+.mon{
+    text-align:right;
+    padding-right: 360px;
+}
